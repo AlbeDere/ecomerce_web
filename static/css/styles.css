@@ -102,6 +102,9 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 hr {
@@ -10858,3 +10861,24 @@ font-size: 52px;
     text-align: center;
 }
 
+.fa-custom-color {
+    color: #555; /* Change to your desired darker color */
+}
+
+.custom-button {
+    background-color: #555; /* Change to your desired color */
+    border: none;
+    margin-right: auto;
+}
+
+.custom-label {
+    font-weight: bold;
+}
+footer{
+    margin-top: auto;
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
