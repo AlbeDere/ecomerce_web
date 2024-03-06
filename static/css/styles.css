@@ -10882,3 +10882,12 @@ html {
   overflow-x: hidden;
   margin-right: calc(-1 * (100vw - 100%));
 }
+
+.flash {
+  font-size: 16px; /* Change the font size */
+  color: white; /* Change the text color */
+  background-color: #f44336; /* Change the background color */
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

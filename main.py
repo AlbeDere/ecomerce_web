@@ -62,6 +62,10 @@ def terms_of_service():
 def privacy_policy():
     return render_template("pp.html")
 
+@app.route("/all_procucts")
+def all_procucts():
+    return render_template("products.html")
+
 
 @app.route('/register', methods=["GET", "POST"])
 def register():
@@ -113,6 +117,12 @@ def login():
             return redirect(url_for('home'))
 
     return render_template("login.html", form=form, current_user=current_user)
+
+
+@app.route('/logout')
+def logout():
+    logout_user()
+    return redirect(url_for('home'))
 
 
 
