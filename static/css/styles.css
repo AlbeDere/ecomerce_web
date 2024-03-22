@@ -10891,3 +10891,11 @@ html {
   margin-bottom: 10px;
   border-radius: 5px;
 }
+
+.card-img-top {
+  width: 100%; /* Ensures the image is as wide as the container */
+  height: 200px; /* Adjust this to the desired height */
+  object-fit: fill; /* This will stretch the image to fill the entire box */
+}
+
+
