@@ -18,9 +18,9 @@
             {% if current_user.id == 1 %}
             <div class="d-flex justify-content-end mb-4">
             <a
-                class="btn btn-primary float-right"
-                href="{{url_for('edit_product', product_id=item.id)}}"
-                >Edit Post</a
+                class="btn btn-primary float-right custom-edit-button"
+                href="{{url_for('edit_product', product_id=item.id, )}}"
+                >Edit Product</a
             >
             </div>
             {% endif %}

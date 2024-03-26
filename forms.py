@@ -28,5 +28,5 @@ class CreateItem(FlaskForm):
 # Form to add comments
 class CommentForm(FlaskForm):
     comment_text = CKEditorField("Comment", validators=[DataRequired()])
-    submit = SubmitField("Submit Comment")
+    submit = SubmitField("Submit Comment", render_kw={'class': 'custom-button', 'style': 'text-align: right;'})
     

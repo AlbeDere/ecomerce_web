@@ -10871,6 +10871,12 @@ font-size: 52px;
     margin-right: auto;
 }
 
+.custom-edit-button {
+  background-color: #555; /* Change to your desired color */
+  border: none;
+  margin-left: auto;
+}
+
 .custom-label {
     font-weight: bold;
 }
